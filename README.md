@@ -3,7 +3,6 @@
 - 🌱 Estou estudando sobre sistemas embarcados, linguagens de baixo nível, segurança e também desenvolvimento web
 - 💬 Pode me perguntar sobre banco de dados, desenvolvimento em Python, C e também sobre Linux
 
-<hr></hr>
 
 <h2>Redes Sociais</h2>
 <div style="display: inline_block"><br/>
@@ -17,7 +16,6 @@
 </a>
 </div>
 
-<hr></hr>
 
 <h2>Tecnologias</h2>
 
