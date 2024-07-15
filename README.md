@@ -4,11 +4,10 @@
 - 💬 Pode me perguntar sobre banco de dados, desenvolvimento em Python, C e também sobre Linux
 - ⚡ Meus contatos:
 
-  - [Linkedin](
-https://www.linkedin.com/in/arthur-rodrigues808)
-  - [Youtube](
-https://www.youtube.com/@heartzJnhQ)
-  - [Other](
-https://guns.lol/157)
+
+[<img alt="alt_text" width="40px" src="[images/image.PNG](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" />]([https://www.linkedin.com/in/arthur-rodrigues808])
+
+[<img alt="alt_text" width="40px" src="[images/image.PNG](	https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)" />]([https://www.youtube.com/@heartzJnhQ])
+
 
 
