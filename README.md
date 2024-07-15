@@ -5,9 +5,9 @@
 - ⚡ Meus contatos:
 
 
-[<img alt="alt_text" width="40px" src="[images/image.PNG](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" />]([https://www.linkedin.com/in/arthur-rodrigues808])
+[<img alt="LinkedIn" width="40px" src="[images/image.PNG](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)" />]([https://www.linkedin.com/in/arthur-rodrigues808])
 
-[<img alt="alt_text" width="40px" src="[images/image.PNG](	https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)" />]([https://www.youtube.com/@heartzJnhQ])
+[<img alt="Youtube" width="40px" src="[images/image.PNG](	https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)" />]([https://www.youtube.com/@heartzJnhQ])
 
 
 
