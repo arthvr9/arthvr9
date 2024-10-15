@@ -1,10 +1,8 @@
-- 🔭 Atualmente trabalho com automações web e integração de sistemas
-- ✨ Estudante de Ciência da Computação
-- 🌱 Estou estudando sobre sistemas embarcados, linguagens de baixo nível, segurança e também desenvolvimento web
-- 💬 Pode me perguntar sobre banco de dados, desenvolvimento em Python, C e também sobre Linux
+- ✨ Computer science
+- 💬 Can ask me about, database, Python, C, C++, C# Development and Linux
 
 
-<h2>Redes Sociais</h2>
+<h2>Social</h2>
 <div style="display: inline_block"><br/>
 <a href="https://www.linkedin.com/in/arthur-rodrigues808">
 <img align="center" alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -17,7 +15,7 @@
 </div>
 
 
-<h2>Tecnologias</h2>
+<h2>Technologies</h2>
 
 <div style="display: inline_block"><br/>
 <img align="center" alt="Python" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
