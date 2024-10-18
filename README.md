@@ -1,5 +1,5 @@
-- ✨ Computer science
-- 💬 Can ask me about database, Python, C, C++, C# Development and Linux
+Computer scientist
+Can ask me about database, Python, C, C++, C# Development and Linux
 
 
 <h2>Social</h2>
