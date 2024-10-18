@@ -1,14 +1,6 @@
 - Computer scientist
 - Can ask me about database, Python, C, C++, C# Development and Linux
 
-
-<h2>Social</h2>
-<div style="display: inline_block"><br/>
-<a href="https://www.youtube.com/@heartzJnhQ">
-<img align="center" alt="Youtube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</div>
-
-
 <h2>Technologies</h2>
 
 <div style="display: inline_block"><br/>
