@@ -1,2 +1,2 @@
 - Computer scientist
-- Actually using Python, C, C# and Java
+- Actually using Typescript, Java & C#
