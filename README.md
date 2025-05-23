@@ -1,2 +1,3 @@
 - Computer scientist
+- Systems analyst
 - Actually using Typescript, Java & C#
