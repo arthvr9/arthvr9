@@ -1,3 +1,3 @@
 - Computer scientist
 - Systems analyst
-- Actually using Typescript, Java & C#
+- Actually using React, Typescript & Tailwind
