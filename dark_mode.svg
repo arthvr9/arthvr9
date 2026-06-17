@@ -118,7 +118,7 @@
     <text class="text line text" x="0" y="52"><tspan class="key">OS</tspan>: Linux Mint</text>
     <text class="text line text" x="0" y="78"><tspan class="key">Host</tspan>: Gran Coffee</text>
     <text class="text line text" x="0" y="104"><tspan class="key">Role</tspan>: Full Stack Developer</text>
-    <text class="text line text" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->2 years, 9 months, 28 days<!--/uptime--></tspan></text>
+    <text class="text line text" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->20 years, 3 months, 9 days<!--/uptime--></tspan></text>
     <text class="text line text" x="0" y="156"><tspan class="key">IDE</tspan>: Zed</text>
     <text class="text line text" x="0" y="182"><tspan class="key">Languages.Programming</tspan>: Flutter, TypeScript, C++</text>
     <text class="text line text" x="0" y="208"><tspan class="key">Languages.Human</tspan>: Portuguese, English</text>
@@ -127,10 +127,10 @@
     <text class="text line text" x="0" y="286"><tspan class="key">LinkedIn</tspan>: in/arthur-rodrigues808</text>
     <text class="text line sep" x="0" y="312">--------------------------</text>
     <text class="text line text" x="0" y="338"><tspan class="key">Repos</tspan>: <tspan class="val"><!--repos-->57<!--/repos--></tspan> <tspan class="sep">{ Contributed: </tspan><tspan class="val"><!--contributed-->25<!--/contributed--></tspan><tspan class="sep"> }</tspan></text>
-    <text class="text line text" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->205<!--/commits--></tspan></text>
+    <text class="text line text" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->1,118<!--/commits--></tspan></text>
     <text class="text line text" x="0" y="390"><tspan class="key">Stars</tspan>: <tspan class="val"><!--stars-->5<!--/stars--></tspan></text>
     <text class="text line text" x="0" y="416"><tspan class="key">Followers</tspan>: <tspan class="val"><!--followers-->14<!--/followers--></tspan></text>
-    <text class="text line text" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,163,241<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,958,602<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,639<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
+    <text class="text line text" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,163,588<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,958,929<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,659<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
     <text class="text line accent" x="0" y="468">$ <tspan class="cursor">█</tspan></text>
   </g>
 </svg>
