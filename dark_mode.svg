@@ -1,4 +1,4 @@
-<svg width="880" height="600" viewBox="0 0 880 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub profile terminal">
+<svg width="1100" height="600" viewBox="0 0 1100 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub profile terminal">
   <style>
     .bg       { fill: #1a1b27; }
     .titlebar { fill: #13141f; }
@@ -10,17 +10,18 @@
     .add      { fill: #9ece6a; }
     .del      { fill: #f7768e; }
     .title    { fill: #565f89; font-family: 'Courier New', Consolas, monospace; font-size: 15px; }
+    .art      { fill: #c0caf5; }
 
     .line { opacity: 0; animation: fadein 0.5s ease forwards; }
-    .line:nth-of-type(1)  { animation-delay: 0.30s; }
-    .line:nth-of-type(2)  { animation-delay: 0.42s; }
-    .line:nth-of-type(3)  { animation-delay: 0.54s; }
-    .line:nth-of-type(4)  { animation-delay: 0.66s; }
-    .line:nth-of-type(5)  { animation-delay: 0.78s; }
-    .line:nth-of-type(6)  { animation-delay: 0.90s; }
-    .line:nth-of-type(7)  { animation-delay: 1.02s; }
-    .line:nth-of-type(8)  { animation-delay: 1.14s; }
-    .line:nth-of-type(9)  { animation-delay: 1.26s; }
+    .line:nth-of-type(1) { animation-delay: 0.30s; }
+    .line:nth-of-type(2) { animation-delay: 0.42s; }
+    .line:nth-of-type(3) { animation-delay: 0.54s; }
+    .line:nth-of-type(4) { animation-delay: 0.66s; }
+    .line:nth-of-type(5) { animation-delay: 0.78s; }
+    .line:nth-of-type(6) { animation-delay: 0.90s; }
+    .line:nth-of-type(7) { animation-delay: 1.02s; }
+    .line:nth-of-type(8) { animation-delay: 1.14s; }
+    .line:nth-of-type(9) { animation-delay: 1.26s; }
     .line:nth-of-type(10) { animation-delay: 1.38s; }
     .line:nth-of-type(11) { animation-delay: 1.50s; }
     .line:nth-of-type(12) { animation-delay: 1.62s; }
@@ -32,42 +33,104 @@
     .line:nth-of-type(18) { animation-delay: 2.34s; }
     .line:nth-of-type(19) { animation-delay: 2.46s; }
 
+    .line-art { opacity: 0; animation: fadein 0.8s ease forwards; animation-delay: 0.1s; }
     @keyframes fadein { from { opacity: 0; transform: translateX(8px); } to { opacity: 1; transform: translateX(0); } }
     @keyframes blink  { 50% { opacity: 0; } }
     .cursor { animation: blink 1s step-end infinite; }
   </style>
 
-  <rect class="bg" x="0" y="0" width="880" height="600" rx="14"/>
-  <rect class="titlebar" x="0" y="0" width="880" height="40" rx="14"/>
-  <rect class="titlebar" x="0" y="20" width="880" height="20"/>
+  <rect class="bg" x="0" y="0" width="1100" height="600" rx="14"/>
+  <rect class="titlebar" x="0" y="0" width="1100" height="40" rx="14"/>
+  <rect class="titlebar" x="0" y="20" width="1100" height="20"/>
   <circle cx="26" cy="20" r="7" fill="#f7768e"/>
   <circle cx="50" cy="20" r="7" fill="#e0af68"/>
   <circle cx="74" cy="20" r="7" fill="#9ece6a"/>
-  <text class="title" x="440" y="25" text-anchor="middle">arthur@gran-coffee: ~</text>
+  <text class="title" x="550" y="25" text-anchor="middle">arthur@gran-coffee: ~</text>
 
-  <g transform="translate(40, 70)">
-    <text class="text line" x="0" y="0"><tspan class="accent">arthur</tspan>@<tspan class="accent">github</tspan></text>
+  <text class="art line-art" xml:space="preserve" font-family="'Courier New', monospace" font-size="7" transform="translate(28,56)">
+    <tspan x="0" dy="0">..................................................................................................................</tspan>
+    <tspan x="0" dy="8">..................................................................................................................</tspan>
+    <tspan x="0" dy="8">..................................................................................................................</tspan>
+    <tspan x="0" dy="8">..................................................................................................................</tspan>
+    <tspan x="0" dy="8">..................................................................................................................</tspan>
+    <tspan x="0" dy="8">...........................................................................................................,......</tspan>
+    <tspan x="0" dy="8">.........................................................................................................,J/......</tspan>
+    <tspan x="0" dy="8">.........................................................................................................cdJ,.....</tspan>
+    <tspan x="0" dy="8">.........,,............................................................................................,JZdJ&lt;.....</tspan>
+    <tspan x="0" dy="8">......&lt;1--&lt;-11,.......................................................................................lJZZdZ-.....</tspan>
+    <tspan x="0" dy="8">.....l-&lt;lllll&lt;1---l..................................,l&lt;1/rrrcccJJJJJJJJJccr/1&lt;,.....................&lt;JZZZdZ-.....</tspan>
+    <tspan x="0" dy="8">......1-lllllll&lt;ll&lt;1/--&lt;lll&lt;&lt;--...............,-/rcJZZZZZZZZZZZZZZZZZZZZZZZZZZZZZJr-................1JZZZZdZ-.....</tspan>
+    <tspan x="0" dy="8">......&lt;/&lt;l-//-llllll&lt;r.........l--........l/cJZZZZZZZZZZZJZZZZZZJZZZZZZZZZZZZZZZZZZZZJ1,.......,1.,rZZZZJZdZ-.....</tspan>
+    <tspan x="0" dy="8">....,--lll/..l1lllll11...........,-&lt;...-cZZZZZZZZZZJZZJZZJZZJJZZJZZJJZJZZJZZZZZZZZZZZZZZc&lt;...-JdJ-JZZZZZZZdZ&lt;lrr,.</tspan>
+    <tspan x="0" dy="8">....&lt;1llllr,.,1l-/-l...............,/JZZZZZZZZZJZZJZZZJZZJZZZJZZZZZJZZJZZJZZZZZZZZZZZZZZZZJ1JZZddZZZJJZZZddZJdd&lt;..</tspan>
+    <tspan x="0" dy="8">....&lt;1lllll&lt;&lt;&lt;lll/l...............-JZZZZJZZJJZZJZZJZZJZZZZZZZZJZZZZZZZZZZZZZJZZZZZZZZZZZZZZZdddZZZZZZZZJZdddddc,..</tspan>
+    <tspan x="0" dy="8">.....&lt;/1--1&lt;lllll&lt;1............./JZZZJZZJZZZJZZZZZZZZZZZZZJJZZZZZZZZZZJZJZZJZZZZZZZZZZZZZZZZZZddZZZZZZZZdddddd/...</tspan>
+    <tspan x="0" dy="8">........,../-llll1&lt;...........--cZZZZJZZZJZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZJZZZZJZZJZZZZZZZZZZZZZddZZZZZZddddddZ&lt;...</tspan>
+    <tspan x="0" dy="8">............&lt;r1/1,..........,-&lt;JZZJZZZZZZZZZZZZZZZZZZZZZZZZZZJZZZZZZZZZZZJZZJJZZZZZZZZZZZZZZZZZZddZZZZZdZZdddc,...</tspan>
+    <tspan x="0" dy="8">...........................&lt;&lt;-JZZZZZZZZZZZZZZZZZZZZZZ/ZZZZZZZZZZZZZZZZZZZZZZJZZJJZZZZZZZZZZZZZZZddddZZZZZZddd1....</tspan>
+    <tspan x="0" dy="8">..........................&lt;l-JZZZZZZZZZZZZZZZZZZZZZJ,.,rZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZddddZZZZZZddZ&lt;....</tspan>
+    <tspan x="0" dy="8">.........................l&lt;1JZZZZZZZZZZdZZZZZZZZZZ/.....&lt;JZZZZZZZZZZ/&lt;JZZZZZZZZZZZZZZZZZZZZZZZZZZddddZZZZZddc,....</tspan>
+    <tspan x="0" dy="8">........................ll&lt;cZZZZZZZZZdddZZZZZZZZZ&lt;......../ZZZZZZZZZr,,rZZZZZZdZZZZZZZZZZZJZZZZZZZddddZZZZdd/.....</tspan>
+    <tspan x="0" dy="8">.......................l&lt;..lcZZZZZZZdZrJZZZZZZZcl..........,JZZZZZZZr,..lZZZZZZZZZJ...cZZZZZZZZZZZdddddZZddd1.....</tspan>
+    <tspan x="0" dy="8">......................,-...&lt;cdJ,,JZdZ--JZZZZZZ/..............1dZZZZZ/,...,cZZZZdZZZcrJZZZZZZZZZZZZZddddZZddJl.....</tspan>
+    <tspan x="0" dy="8">......................1....1ZZZJZZdd1.-JZZZZZ1................/ddZZZ/,&lt;1l..1ZZZdZZZZZZZZZdZZZZZZZZdddddddddr......</tspan>
+    <tspan x="0" dy="8">...................../...&lt;cZdZZZZdd/,&lt;rZdZdZr-.................,JZZZ-....,..1ZZddZZZZZZZZddZZZZZZdddddddddZ&lt;......</tspan>
+    <tspan x="0" dy="8">....................1.&lt;JZZZZdZZZddZ-..lJZZZ,....................,JZr,........1ZddZZZZZZZZddZZZZdddddddddddJ.......</tspan>
+    <tspan x="0" dy="8">...................l&lt;-ZZZZZZZZZddZ,....cZZ.......................lJ-.........,cddZZZZZZZZddddddddddddddddd1.......</tspan>
+    <tspan x="0" dy="8">...................1lZZZZZZdZZZdZ&lt;.....1Z-....................................&lt;JdZZZZZZZZddddddddddddddddZ,.......</tspan>
+    <tspan x="0" dy="8">..................-lJZdZZZZdZZdd1.......,......................................&lt;ZZZZZZZZZdddddddddddddadd/........</tspan>
+    <tspan x="0" dy="8">.................,-JZddZZZZdZddr.................................,caa&lt;..........cZZZZZZZZdddddddddddddddd.........</tspan>
+    <tspan x="0" dy="8">.................1cZZddZZZZdZdZ.........ca.......................ldaa/..........rZZZZZZZZZddddddddddddda,.........</tspan>
+    <tspan x="0" dy="8">................&lt;JZZdddZZZZddd,........&lt;da/......................&lt;daaJ,.........1ZZZZZZZZZdddddddddddad,..........</tspan>
+    <tspan x="0" dy="8">...............,rZZddddZZZZdd-.........1daZ......................lZaadl.........-JZZZZZZZZdddddddddddZ,...........</tspan>
+    <tspan x="0" dy="8">...............-ZZdddddZZZZZdl.........rdad,.....................,Jaadl.........lJZZZZZZZZcl..&lt;Zdddddr............</tspan>
+    <tspan x="0" dy="8">..............lcZddddcdZZZZdd&lt;.........caad&lt;.....................,caadl.........,JZZZZZZZJl.....rdddZl............</tspan>
+    <tspan x="0" dy="8">..............1dZddd&lt;.ZZZZZdd-.........raad-......................raadl.........,JZZZZZZZJl..,l.lZdZcc............</tspan>
+    <tspan x="0" dy="8">.............lJZddZ,..JZZZZdd1........./dad1......................-dadl..........JZZZZZZZcl.-&lt;..,cZcrrJ,..........</tspan>
+    <tspan x="0" dy="8">.............1Zdd/....rZZZZdd1.........&lt;dad-......................./Z-...........JZZZZZZZrl1,,..,rcrrrrc-.........</tspan>
+    <tspan x="0" dy="8">............,JdZ-.....-ZZZZdd/........../dZ,.....................................JZZZZZZZ/--,...,Jrrrrrrrc,.......</tspan>
+    <tspan x="0" dy="8">............,dJl......,dZZZddc.........................................,.,..,....JZZZZZZZ1,-l...1Jrrr/rrcZZr,.....</tspan>
+    <tspan x="0" dy="8">.............-........,cZZZddZ...................................................JZZZZZZZ1.l-..,JrrrrrrZZZZcc1....</tspan>
+    <tspan x="0" dy="8">......................,rZZZddd...................................................JZZZZZZZ-.1,..rcrr/rJZZZccZZZJl..</tspan>
+    <tspan x="0" dy="8">...................,/JrJZZZZdd...&lt;,,...............,-111-&lt;&lt;ll,,,,l--.............JZZZZZZZ&lt;-l..1JrrrcZZZJrJZZJrcl..</tspan>
+    <tspan x="0" dy="8">................,1ZZZJrcZZZZdc...................,&lt;,,..,,.,,.,,.,,.&lt;l............JZZZZZZJl...-JJrrJZZZrrZZZrrc1...</tspan>
+    <tspan x="0" dy="8">................-rcZZZrcZZZZZl...................,&lt;,,..,,.,..,,.,,.,&lt;............JZZZZZZrl..1JJcrcZZZrcZZJrrc1....</tspan>
+    <tspan x="0" dy="8">................&lt;rrZZZJrZZZZ1.....................-,,,,,.,,,.,,.,,.,&lt;,...........cZZZZZZ/,lcJJJJJZZJrJZZJrrr-.....</tspan>
+    <tspan x="0" dy="8">................,rrrZZZcJZZJl.....................-,..,..,,.,,..,,.,&lt;,...........cZZZZZZJJJJJJdddJccZZZrrrrl......</tspan>
+    <tspan x="0" dy="8">.................-rrrZZZZZZJl.....................ll,,,,.,..,,.,,.,,&lt;,...........cZZZZZZZJJZdddZJJZZZJrrc/........</tspan>
+    <tspan x="0" dy="8">................../rrrZZZZZZJ&lt;.....................-l,.,,,,.,,.,,..,&lt;..........,,cZZZZZZZdddZJJdddZJrrrr..........</tspan>
+    <tspan x="0" dy="8">...................rrrrJZdZZZdJ&lt;....................l&lt;l,.,,.,,.,,,,-l........,&lt;rJdZZZZdddZJJZddddJrrr/,...........</tspan>
+    <tspan x="0" dy="8">....................1crrJddZZddddr-l,.................,-&lt;&lt;llllll&lt;-l.....,l&lt;/JZJZddZZZZZJJZdddZJJJJc1..............</tspan>
+    <tspan x="0" dy="8">.....................,/JJJddZdddddZJJJJcr1-&lt;l,,,..................,,l&lt;--&lt;r,l1ZddddZZZdddddZJJJJc/,................</tspan>
+    <tspan x="0" dy="8">........................1cZdZZdddddddddZZZZJJJJZZJJccrr/1-1-----&lt;,,,,,,,&lt;-,,,,&lt;//JZZJrJdZccr/-,...................</tspan>
+    <tspan x="0" dy="8">...........................rZZddZcJZZZZdZZdddddddddZJcr1&lt;1/&lt;,,,,,,,,.,,--,,,.....cZJ..cdZr&lt;.......................</tspan>
+    <tspan x="0" dy="8">...........................,cZdd/...,ll&lt;1rrcJZJ1&lt;,.....,,-&lt;,,,,,.,,,.,-&lt;,........cc..&lt;dd/.&lt;l......................</tspan>
+    <tspan x="0" dy="8">............................,JZd-..........1Jd/..........&lt;-,,,,,,,,,l1l..........,...JdJ&lt;..1,.....................</tspan>
+    <tspan x="0" dy="8">.............................,cd-.........1-JZ-...........-&lt;,,,,,,,&lt;&lt;...............1ddr..../.....................</tspan>
+    <tspan x="0" dy="8">...............................&lt;l........1,&lt;dJ&lt;............-,,,,,,&lt;,................ddZ-.....r....................</tspan>
+    <tspan x="0" dy="8">........................................-,.1dc,............l&lt;,,,l&lt;.................rddcl.....l-...................</tspan>
+    <tspan x="0" dy="8">.......................................&lt;,.,cdr..............-l,-l.................,dddr,......1,..................</tspan>
+  </text>
+
+  <g transform="translate(560, 86)">
+    <text class="text line text" x="0" y="0"><tspan class="accent">arthur</tspan>@<tspan class="accent">github</tspan></text>
     <text class="text line sep" x="0" y="26">--------------------------</text>
-
-    <text class="text line" x="0" y="52"><tspan class="key">OS</tspan>: Linux Mint</text>
-    <text class="text line" x="0" y="78"><tspan class="key">Host</tspan>: Gran Coffee</text>
-    <text class="text line" x="0" y="104"><tspan class="key">Role</tspan>: Full Stack Developer</text>
-    <text class="text line" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->2 years, 9 months, 28 days<!--/uptime--></tspan></text>
-    <text class="text line" x="0" y="156"><tspan class="key">IDE</tspan>: Zed</text>
-    <text class="text line" x="0" y="182"><tspan class="key">Languages.Programming</tspan>: Flutter, TypeScript, C++</text>
-    <text class="text line" x="0" y="208"><tspan class="key">Languages.Human</tspan>: Portuguese, English</text>
-    <text class="text line" x="0" y="234"><tspan class="key">Hobbies</tspan>: C++, Game Hacking, Video Editing</text>
-    <text class="text line" x="0" y="260"><tspan class="key">Email</tspan>: arthurrodrigues.dev@gmail.com</text>
-    <text class="text line" x="0" y="286"><tspan class="key">LinkedIn</tspan>: in/arthur-rodrigues808</text>
-
+    <text class="text line text" x="0" y="52"><tspan class="key">OS</tspan>: Linux Mint</text>
+    <text class="text line text" x="0" y="78"><tspan class="key">Host</tspan>: Gran Coffee</text>
+    <text class="text line text" x="0" y="104"><tspan class="key">Role</tspan>: Full Stack Developer</text>
+    <text class="text line text" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->2 years, 9 months, 28 days<!--/uptime--></tspan></text>
+    <text class="text line text" x="0" y="156"><tspan class="key">IDE</tspan>: Zed</text>
+    <text class="text line text" x="0" y="182"><tspan class="key">Languages.Programming</tspan>: Flutter, TypeScript, C++</text>
+    <text class="text line text" x="0" y="208"><tspan class="key">Languages.Human</tspan>: Portuguese, English</text>
+    <text class="text line text" x="0" y="234"><tspan class="key">Hobbies</tspan>: C++, Game Hacking, Video Editing</text>
+    <text class="text line text" x="0" y="260"><tspan class="key">Email</tspan>: arthurrodrigues.dev@gmail.com</text>
+    <text class="text line text" x="0" y="286"><tspan class="key">LinkedIn</tspan>: in/arthur-rodrigues808</text>
     <text class="text line sep" x="0" y="312">--------------------------</text>
-
-    <text class="text line" x="0" y="338"><tspan class="key">Repos</tspan>: <tspan class="val"><!--repos-->57<!--/repos--></tspan> <tspan class="sep">{ Contributed: </tspan><tspan class="val"><!--contributed-->25<!--/contributed--></tspan><tspan class="sep"> }</tspan></text>
-    <text class="text line" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->205<!--/commits--></tspan></text>
-    <text class="text line" x="0" y="390"><tspan class="key">Stars</tspan>: <tspan class="val"><!--stars-->5<!--/stars--></tspan></text>
-    <text class="text line" x="0" y="416"><tspan class="key">Followers</tspan>: <tspan class="val"><!--followers-->14<!--/followers--></tspan></text>
-    <text class="text line" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,163,241<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,958,602<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,639<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
-
+    <text class="text line text" x="0" y="338"><tspan class="key">Repos</tspan>: <tspan class="val"><!--repos-->57<!--/repos--></tspan> <tspan class="sep">{ Contributed: </tspan><tspan class="val"><!--contributed-->25<!--/contributed--></tspan><tspan class="sep"> }</tspan></text>
+    <text class="text line text" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->205<!--/commits--></tspan></text>
+    <text class="text line text" x="0" y="390"><tspan class="key">Stars</tspan>: <tspan class="val"><!--stars-->5<!--/stars--></tspan></text>
+    <text class="text line text" x="0" y="416"><tspan class="key">Followers</tspan>: <tspan class="val"><!--followers-->14<!--/followers--></tspan></text>
+    <text class="text line text" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,163,241<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,958,602<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,639<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
     <text class="text line accent" x="0" y="468">$ <tspan class="cursor">█</tspan></text>
   </g>
 </svg>

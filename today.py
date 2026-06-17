@@ -124,7 +124,7 @@ def get_contributed(login):
         repositoriesContributedTo(first: 1, includeUserRepositories: false,
           contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY, PULL_REQUEST_REVIEW]) {
           totalCount
-        }
+        }   
       }
     }"""
     return gql(query, {"login": login})["user"]["repositoriesContributedTo"]["totalCount"]
