@@ -92,6 +92,31 @@ def get_repos(login, node_id):
     return total_repos, total_stars, total_commits, repos
 
 
+def get_total_commits(login, created):
+    """Sum commit contributions year-by-year (matches GitHub's own count,
+    including private and organization commits when using your own token)."""
+    query = """
+    query($login: String!, $from: DateTime!, $to: DateTime!) {
+      user(login: $login) {
+        contributionsCollection(from: $from, to: $to) {
+          totalCommitContributions
+          restrictedContributionsCount
+        }
+      }
+    }"""
+    total = 0
+    start = datetime.datetime(created.year, created.month, created.day, tzinfo=datetime.timezone.utc)
+    now = datetime.datetime.now(datetime.timezone.utc)
+    cursor = start
+    while cursor < now:
+        nxt = min(cursor + datetime.timedelta(days=365), now)
+        coll = gql(query, {"login": login, "from": cursor.isoformat(), "to": nxt.isoformat()})
+        coll = coll["user"]["contributionsCollection"]
+        total += coll["totalCommitContributions"] + coll["restrictedContributionsCount"]
+        cursor = nxt
+    return total
+
+
 def get_contributed(login):
     query = """
     query($login: String!) {
@@ -193,7 +218,8 @@ def main():
     if os.environ.get("BIRTHDAY"):
         birthday = datetime.date.fromisoformat(os.environ["BIRTHDAY"])
 
-    total_repos, total_stars, total_commits, repos = get_repos(login, node_id)
+    total_repos, total_stars, _, repos = get_repos(login, node_id)
+    total_commits = get_total_commits(login, created)
     contributed = get_contributed(login)
     add_total, del_total = get_loc(repos, node_id)
 

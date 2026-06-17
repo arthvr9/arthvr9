@@ -28,7 +28,7 @@ jobs:
       - name: Generate SVGs
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BIRTHDAY: ${{ vars.BIRTHDAY }}
+          BIRTHDAY: ${{ secrets.BIRTHDAY }}
         run: python today.py
 
       - name: Commit & push if changed
