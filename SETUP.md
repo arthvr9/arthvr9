@@ -30,7 +30,7 @@ In the repo: **Settings → Secrets and variables → Actions → New repository
 Same page → **Variables** tab → **New repository variable**
 
 - Name: `BIRTHDAY`
-- Value: `YYYY-MM-DD` (e.g. `1998-04-23`)
+- Value: `YYYY-MM-DD` (e.g. `2006-03-08`)
 
 If unset, "Uptime" counts from your GitHub account creation date instead.
 
