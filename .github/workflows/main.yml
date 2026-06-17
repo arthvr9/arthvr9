@@ -6,7 +6,7 @@ on:
     - cron: "0 0,12 * * *"
   workflow_dispatch: # allow manual runs from the Actions tab
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   update:
