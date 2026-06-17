@@ -33,7 +33,8 @@
     .line:nth-of-type(18) { animation-delay: 2.34s; }
     .line:nth-of-type(19) { animation-delay: 2.46s; }
 
-    .line-art { opacity: 0; animation: fadein 0.8s ease forwards; animation-delay: 0.1s; }
+    .line-art { opacity: 0; animation: fadeinart 0.8s ease forwards; animation-delay: 0.1s; }
+    @keyframes fadeinart { from { opacity: 0; } to { opacity: 1; } }
     @keyframes fadein { from { opacity: 0; transform: translateX(8px); } to { opacity: 1; transform: translateX(0); } }
     @keyframes blink  { 50% { opacity: 0; } }
     .cursor { animation: blink 1s step-end infinite; }
