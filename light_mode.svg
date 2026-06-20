@@ -100,11 +100,11 @@
     <text class="text line text" x="0" y="260"><tspan class="key">Email</tspan>: arthurrodrigues.dev@gmail.com</text>
     <text class="text line text" x="0" y="286"><tspan class="key">LinkedIn</tspan>: in/arthur-rodrigues808</text>
     <text class="text line sep" x="0" y="312">--------------------------</text>
-    <text class="text line text" x="0" y="338"><tspan class="key">Repos</tspan>: <tspan class="val"><!--repos-->57<!--/repos--></tspan> <tspan class="sep">{ Contributed: </tspan><tspan class="val"><!--contributed-->26<!--/contributed--></tspan><tspan class="sep"> }</tspan></text>
-    <text class="text line text" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->1,130<!--/commits--></tspan></text>
+    <text class="text line text" x="0" y="338"><tspan class="key">Repos</tspan>: <tspan class="val"><!--repos-->58<!--/repos--></tspan> <tspan class="sep">{ Contributed: </tspan><tspan class="val"><!--contributed-->26<!--/contributed--></tspan><tspan class="sep"> }</tspan></text>
+    <text class="text line text" x="0" y="364"><tspan class="key">Commits</tspan>: <tspan class="val"><!--commits-->1,133<!--/commits--></tspan></text>
     <text class="text line text" x="0" y="390"><tspan class="key">Stars</tspan>: <tspan class="val"><!--stars-->5<!--/stars--></tspan></text>
     <text class="text line text" x="0" y="416"><tspan class="key">Followers</tspan>: <tspan class="val"><!--followers-->14<!--/followers--></tspan></text>
-    <text class="text line text" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,164,295<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,959,334<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,961<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
+    <text class="text line text" x="0" y="442"><tspan class="key">Lines of code</tspan>: <tspan class="val"><!--loc-->7,164,586<!--/loc--></tspan> <tspan class="sep">(</tspan><tspan class="add"><!--loc_add-->3,959,623<!--/loc_add-->++</tspan><tspan class="sep">, </tspan><tspan class="del"><!--loc_del-->3,204,963<!--/loc_del-->--</tspan><tspan class="sep">)</tspan></text>
     <text class="text line accent" x="0" y="468">$ <tspan class="cursor">█</tspan></text>
   </g>
 </svg>
