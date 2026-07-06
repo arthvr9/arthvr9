@@ -33,7 +33,7 @@ CACHE_FILE = os.path.join("cache", "loc_cache.json")
 
 
 def gql(query, variables, attempt=1):
-    """Run a GraphQL query, retrying once on a transient/rate-limit error."""
+    """ Run a GraphQL query, retrying once on a transient/rate-limit error."""
     resp = requests.post(API, json={"query": query, "variables": variables}, headers=HEADERS)
     if resp.status_code == 200:
         data = resp.json()
@@ -124,7 +124,7 @@ def get_contributed(login):
         repositoriesContributedTo(first: 1, includeUserRepositories: false,
           contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY, PULL_REQUEST_REVIEW]) {
           totalCount
-        }   
+        }
       }
     }"""
     return gql(query, {"login": login})["user"]["repositoriesContributedTo"]["totalCount"]
