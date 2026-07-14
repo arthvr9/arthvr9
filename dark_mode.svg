@@ -92,7 +92,7 @@
     <text class="text line text" x="0" y="52"><tspan class="key">OS</tspan>: Debian 13</text>
     <text class="text line text" x="0" y="78"><tspan class="key">Host</tspan>: Gran Coffee</text>
     <text class="text line text" x="0" y="104"><tspan class="key">Role</tspan>: Full Stack Developer</text>
-    <text class="text line text" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->20 years, 4 months, 5 days<!--/uptime--></tspan></text>
+    <text class="text line text" x="0" y="130"><tspan class="key">Uptime</tspan>: <tspan class="val"><!--uptime-->20 years, 4 months, 6 days<!--/uptime--></tspan></text>
     <text class="text line text" x="0" y="156"><tspan class="key">IDE</tspan>: VSCode</text>
     <text class="text line text" x="0" y="182"><tspan class="key">Languages.Programming</tspan>: Flutter, TypeScript, C++</text>
     <text class="text line text" x="0" y="208"><tspan class="key">Languages.Human</tspan>: Portuguese, English</text>
